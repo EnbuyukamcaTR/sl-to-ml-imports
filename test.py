@@ -1,8 +1,8 @@
 import subprocess
 
 def cls():
-    komut = 'cls' if os.name == 'nt' else 'clear'
-    subprocess.run(komut, shell=True)
+    command = 'cls' if os.name == 'nt' else 'clear'
+    subprocess.run(command, shell=True)
 
 list1 = []
 for x in range(1,100):
