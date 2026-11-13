@@ -5,3 +5,5 @@ i put code here and import it with a python command using the raw code link
 ```python
 exec(__import__('requests').get('LINK-HERE').text)
 ```
+
+also the name means "single line to multi line imports"
